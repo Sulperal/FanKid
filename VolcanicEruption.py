@@ -15,7 +15,9 @@ class VolcanicEruption(threading.Thread):
 		cmd2='Land\\KinectSandbox.exe'
 		cmd3='	%s &&\
 						%s '%(cmd1,cmd2)
-						
+
+
+
 		os.system(cmd3)
 
 
