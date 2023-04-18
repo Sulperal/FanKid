@@ -772,7 +772,7 @@ class XY(ShowBase):
         NetMap()
         self.CurrentPage = "NetMap"
 
-
+########################################
 
     def LearnDayTimeOpen(self):
         from LearnDayTime import LearnDayTime
