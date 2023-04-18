@@ -772,6 +772,8 @@ class XY(ShowBase):
         NetMap()
         self.CurrentPage = "NetMap"
 
+
+
     def LearnDayTimeOpen(self):
         from LearnDayTime import LearnDayTime
         self.MainPage.hide()
@@ -1377,6 +1379,7 @@ class XY(ShowBase):
                     if client_data.decode('utf-8') == "next":
                         from BaseLand import BaseLand
                         BaseLand.ColorChangeNButtonFunc()
+
 
                     ###################海洋生物###########################
                     if client_data.decode('utf-8') == "marine_organism_return":
